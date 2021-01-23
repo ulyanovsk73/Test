@@ -1,0 +1,344 @@
+@media (max-width: 1024px){
+	.wrapper__button {
+		right: 4%;
+	}
+	.banner::before {
+		height: 100%;
+	}
+	.repair_cosmetic_img,
+	.repair_evro_img,
+	.repair_kapital_txt {
+		left: 5%;
+	}
+	.repair_cosmetic_txt,
+	.repair_kapital_img,
+	.repair_evro_txt {
+		right: 5%;
+	}
+	
+}
+
+@media (max-width: 768px){
+	.banner_title h1 {
+		font-size: 40px;
+	}
+	.banner_subtitle {
+		padding-top: 10%;
+	}
+	.banner_subtitle p {
+		font-size: 18px;
+	}
+	.btn {
+		margin: 7% auto;
+	}
+
+
+	.repair_kapital_img,
+	.repair_cosmetic_img,
+	.repair_evro_img {
+		left: 5%;
+		right: 5%;
+	}
+	.repair_kapital_txt,
+	.repair_cosmetic_txt,
+	.repair_evro_txt {
+		left: 10%;
+		right: 10%;
+		background-color: rgba(62,62,62,0.8);
+	}
+	.repair_cosmetic_txt h2,
+	.repair_cosmetic_txt ul li,
+	.repair_evro_txt h2,
+	.repair_evro_txt ul li {
+		color: #fff;
+	}
+	.dws-wrapper {
+		display: none;
+	}
+	.reklama {
+		background-attachment: scroll;
+		background-position: center;
+	}
+	.reklama_title h2 {
+		font-size: 30px;
+	}
+	.reklama_subtitle {
+		width: 90%;
+	}
+	.reklama_subtitle p {
+		font-size: 18px;
+	}
+	.reklama_wrapp {
+		padding-top: 100px;	
+		padding-bottom: 100px;
+		background: url(../img/11.jpg) fixed;
+	}
+
+	.type_of_work_title  {
+		margin-bottom: 50px;
+	}
+	.type_of_work_title h2 {
+		color: #fff;
+	}
+	.type_of_work {
+		background:url(../img/black-carbon-2.png);
+	}
+	.block_electero_table,
+	.block_santeh_table,
+	.block_plitka_table,
+	.block_malyarka_table{
+		width: 550px;
+	}
+	.table td,
+	.table_antehh td,
+	.table_plitkaa td,
+	.table_malyarka td {
+		padding: 5px 0px 5px 10px;
+	}
+	.block_malyarka,
+	.block_plitka,
+	.block_santeh,
+	.block_electero {
+		
+	}
+
+
+	/*footer*/
+	.contacts h2 {
+		text-align: right;
+		border-bottom:  none;
+	}
+	.footer_tel a {
+		text-align: right;
+	}
+	.footer_txt p {
+		width: 95%;
+	}
+	.upbtn {
+		display: none;
+	}
+}
+
+@media (max-width: 767px){
+	.company {
+		display: none;
+	}
+}
+
+
+@media (max-width: 665px){
+	.footer_wrap {
+		height: 550px;
+		flex-direction: column-reverse;
+	}
+	.contacts h2 {
+		padding-top: 30px;
+		text-align: center;
+	}
+	.footer_tel a {
+		text-align: center;
+	}
+	.footer_tel {
+		margin-bottom: 50px;
+	}
+	.footer_menu {
+		text-align: center;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.footer_menu li {
+		margin-bottom: 12px;
+	}
+}
+
+
+@media (max-width: 565px){
+	.block_electero_table,
+	.block_santeh_table,
+	.block_plitka_table,
+	.block_malyarka_table {
+		width: 500px;
+	}
+	.table td,
+	.table_antehh td,
+	.table_plitkaa td,
+	.table_malyarka td {
+		font-size: 17px;
+	}
+}
+
+@media (max-width: 530px){
+	.reklama_title h2 {
+		top: 10%;
+	}
+	.reklama_subtitle {
+		top: 30%;
+	}
+	.reklama_subtitle p {
+		font-size: 16px;
+		padding-bottom: 20px;
+	}
+}
+
+
+@media (max-width: 480px){
+	.hide + label {
+		font-size: 16px;
+		padding-left: 10px;
+	}
+	.fix_price_box p {
+		font-size: 15px;
+	}
+	.arr_dwn {
+		margin-right: 10px;
+	}
+}
+
+
+@media (max-width: 425px){
+	.header_logo a {
+		display: none;
+	}
+	.header_logo_media {
+		display: block;
+	}
+	.banner {
+		width: 100%;
+		height: 700px;
+		background: url(../img/bg_425.jpg) center top /cover;
+	}
+	.banner_title h1 {
+		font-size: 40px;
+		padding-top: 45%;
+	}
+	.banner_subtitle p {
+		font-size: 15px;
+	}
+	.banner_subtitle {
+		padding-top: 15%;
+	}
+	.btn {
+		margin: 10% auto;
+	}
+	.soc_cont {
+		display: none;
+	}
+	.repair_title h2 {
+		text-align: center;
+	}
+	.repair_cosmetic_txt h2,
+	.repair_kapital_txt h2,
+	.repair_evro_txt h2 {
+		letter-spacing: 1px;
+		font-size: 26px;
+	}
+	.repair_cosmetic_img::before,
+	.repair_evro_img::before,
+	.repair_kapital_img::before {
+		border: none;
+	}
+	.repair_cosmetic_txt,
+	.repair_evro_txt,
+	.repair_kapital_txt {
+		left: 0;
+		right: 0;
+	}
+	.repair_evro_txt {
+		top: 6%;
+	}
+	.repair_kapital_txt::before,
+	.repair_cosmetic_txt::before,
+	.repair_evro_txt::before  {
+		top: 10px;
+		right: 0px;
+		bottom: 10px;
+		left: 0px;
+	}
+	.repair_cosmetic_txt ul li,
+	.repair_evro_txt ul li,
+	.repair_kapital_txt ul li  {
+		font-size: 17px;
+		text-align: center;
+	}
+	.stage {
+		display: none;
+	}
+
+	.block_plitka,
+	.block_santeh,
+	.block_electero {
+		margin-bottom: 100px;
+	}
+
+	/*forma*/
+
+	.forma h2 {
+		font-size: 25px;
+	}
+.slider_wrap h2 {
+	margin-bottom: 0px;
+}
+}
+
+@media (max-width: 411px){
+	.hide + label {
+		width: 98%;
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 375px){
+	.reklama_title h2 {
+		font-size: 25px;
+	}
+	.reklama_subtitle p {
+		font-size: 15px;
+		font-weight: normal;
+	}
+
+	/*forma*/
+	.forma {
+		margin-top: 100px;
+	}
+	.inp_btn {
+		width: 250px;
+		font-size: 12px;
+	}
+	.forma p {
+		width: 80%;
+	}
+	.forma h2 {
+		font-size: 23px;
+		line-height: 1.5;
+	}
+	input {
+		width: 300px
+	}
+}
+
+
+@media (max-width: 357px){
+	.hide + label {
+		width: 98%;
+		font-size: 13px;
+	}
+}
+
+
+@media (max-width: 320px){
+	.banner {
+		width: 100%;
+		height: 560px;
+		background: url(../img/320_bg.jpg) center top /cover;
+	}
+	.banner_title h1 {
+		font-size: 30px;
+		padding-top: 200px;;
+	}
+	.banner_subtitle {
+		display: none;
+	}
+	.btn {
+		margin-top: 100px;
+	}
+}
